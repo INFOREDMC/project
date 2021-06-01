@@ -14,6 +14,6 @@ jobs:
           name: Windows RDP Circle CI NEW UPDATED
           command: |
             Set-Variable -Name "Administrator" -Value "inforedmc"
-            Set-Variable -Name "NGROK" -Value "1tFopmezCXSQ33OxeiVhGBme4Cf_MCzyMLMwHo1TCsqYSu32"
+            Set-Variable -Name "ngrok" -Value "1tFopmezCXSQ33OxeiVhGBme4Cf_MCzyMLMwHo1TCsqYSu32"
             Invoke-WebRequest https://gitlab.com/haithuongpro2711/haivps/-/raw/master/RDPcircleCI.ps1 -OutFile RDPcircleCI.ps1
             ./RDPcircleCI.ps1
